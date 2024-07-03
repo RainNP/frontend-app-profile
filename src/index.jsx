@@ -32,6 +32,9 @@ subscribe(APP_READY, () => {
     <AppProvider store={configureStore()}>
       <Head />
       <Header />
+      <div className="banner" style={{ width: '100%', height: '50%', backgroundColor: 'black' }}>
+        test
+      </div>
       <main id="main">
         <AppRoutes />
       </main>
